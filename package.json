@@ -1,0 +1,32 @@
+{
+    "name": "apollo-sample",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cowardfxn/apollo-sample.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cowardfxn/apollo-sample/issues"
+    },
+    "homepage": "https://github.com/cowardfxn/apollo-sample#readme",
+    "dependencies": {
+        "apollo-server-express": "^1.3.2",
+        "body-parser": "^1.18.2",
+        "cors": "^2.8.4",
+        "express": "^4.16.2",
+        "graphql": "^0.13.1",
+        "graphql-tools": "^2.21.0",
+        "mongoose": "^5.0.9",
+        "request": "^2.83.0",
+        "request-promise": "^4.2.2"
+    }
+}
